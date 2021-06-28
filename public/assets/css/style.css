@@ -1,0 +1,119 @@
+/*style.css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+div.search_bar{
+	position: fixed;
+    top: 0; bottom: 1;
+    left: 0; right: 0;
+    margin: auto;
+    width: auto;
+    height: 10%;
+    padding-top: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    display: block;
+    background-color: aliceblue;
+}
+
+input[type=text].search_bar{
+	padding: 10px 20px;
+	border: 1px solid darkgray;
+	font-size: 14pt;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type=text].search_bar:hover{
+	border: 1px solid blueviolet;
+}
+
+input[type=text].search_bar:focus{
+    outline: none;
+    border:1px solid blueviolet;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+Button.search_btn{
+	padding: 10px 20px;
+	font-size: 14pt;
+	background: darkcyan;
+	border-radius: 5px;
+	border: 1px solid powderblue;
+	margin-left: 10px;
+	color: white;
+}
+
+Button.search_btn:hover{
+	background: blueviolet;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+
+section.ctt{
+	display: block;
+	margin-top: 10%;
+}
+
+div.card_ctt{
+	background-color: blueviolet;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 10px 20px; 
+	margin-top: 20px;
+}
+
+p.name{
+	font-size: 18pt;
+}
+
+
+table{
+	width: 80%;
+	margin-left: 5%;
+}
+
+table td{
+	width: 40%;
+}
+
+div#add_ctt{
+	display: block;
+	position: fixed;
+    top: 1; bottom: 0;
+    left: 1; right: 0;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    background-color: limegreen;
+    padding: 20px;
+    border-radius:100%;
+}
+
+div#add_ctt:hover{
+	cursor: pointer;
+}
+
+Button.delete{
+	padding: 15px 30px;
+	background-color: darkred;
+	border: none;
+	color: white;
+	border-radius: 2px;
+}
+
+Button.delete:hover{
+	cursor: pointer;
+	border: 1px solid silver;
+}
+
+Button.delete:checked{
+	cursor: progress;
+}
+
