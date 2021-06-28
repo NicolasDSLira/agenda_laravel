@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
+        <title>Cadastrar contato</title>
         <!-- Styles -->
         <link rel="stylesheet" type="text/css" href="{{url('assets/css/style.cadastro.css')}}">
         <!-- Mascara telefone -->
